@@ -23,7 +23,8 @@ jobs:
 
     name: Build OpenWrt firmware
 
-    runs-on: ubuntu-18.04
+    # Use this YAML in your workflow file for each job
+    runs-on: self-hosted
 
     if: github.event.repository.owner.id == github.event.sender.id
 
