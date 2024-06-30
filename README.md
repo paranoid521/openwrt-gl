@@ -5,6 +5,9 @@ with github workflow compile.
 编译报错：c-stack.c:55:26: error: missing binary operator before token “(“ 55 | #elif HAVE_LIBSIGSEGV &&
 https://blog.csdn.net/polaris_zgx/article/details/128559217
 
+编译报错：/usr/include/asm-generic/int-ll64.h:31:42: error: conflicting types for '__u64'
+https://cloud.tencent.com/developer/ask/sof/859280/answer/1234597
+
 **背景介绍**
 GL-SF1200 路由器使用了siflower的SF19A28国产芯片，虽然也是mips架构，但由于经过了魔改，不论是mips_24kc还是mipsel_24kc的elf均无法在其上运行。虽然官方在软件仓库提供了大量软件包以供下载，但是有时我们想要安装一些不常见的或者专有的软件包的时候，就会遇到困难。
 
